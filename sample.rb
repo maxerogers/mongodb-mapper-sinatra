@@ -19,6 +19,7 @@ configure do
 end
 
 
+
 get "/" do
   session[:data] ||= 1
   session[:data] += 1
