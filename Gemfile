@@ -9,3 +9,4 @@ gem "sinatra"
 gem "haml"
 gem "mongo_mapper"
 gem 'rack-session-mongo'
+gem 'bson_ext'
