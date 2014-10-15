@@ -15,6 +15,7 @@ class Shorten
 end
 
 configure do
+  MongoMapper.connection = Mongo::Connection.new('localhost')
   MongoMapper.database = 'urls'
 end
 
