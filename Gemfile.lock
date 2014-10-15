@@ -11,6 +11,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     bson (1.11.1)
+    bson_ext (1.11.1)
+      bson (~> 1.11.1)
     builder (3.2.2)
     haml (4.0.5)
       tilt
@@ -45,6 +47,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bson_ext
   haml
   mongo_mapper
   rack-session-mongo
